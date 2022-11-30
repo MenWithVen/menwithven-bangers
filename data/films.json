@@ -1,9 +1,10 @@
 {
-	"films": [
-		{
-			"name": "Fractured",
-			"onNetflix": true,
-			"watched": true
-		}
-	]
+    "films": [
+        {
+            "name": "Fractured",
+            "link": "https://www.imdb.com/title/tt4332232/",
+            "on_netflix": "yes",
+            "on_prime": "no"
+        }
+    ]
 }

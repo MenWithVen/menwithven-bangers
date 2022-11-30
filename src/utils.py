@@ -11,4 +11,7 @@ def write_json_to_file(file_path: str,
                        content: dict) -> None:
     with open(file=file_path,
               mode="w") as f:
-        json.dump(content, f)
+        json.dump(content,
+                  f,
+                  ensure_ascii=False,
+                  indent=4)
