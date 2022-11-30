@@ -1,4 +1,4 @@
-from src.service import update_json_bollocks
+from src.service import update_json_bollocks, TUNES_JSON_FILEPATH, FILMS_JSON_FILEPATH
 
 print("what type of banger do u want to add?\n- tune\n- film")
 type = input()
@@ -17,7 +17,7 @@ if type == "film":
     print("on prime?")
     on_prime = input()
 
-    update_json_bollocks(file_path="../data/films.json",
+    update_json_bollocks(file_path=FILMS_JSON_FILEPATH,
                          args={"name": name,
                                "link": link,
                                "on_netflix": on_netflix,
@@ -34,7 +34,7 @@ elif type == "tune":
     print("link?")
     link = input()
 
-    update_json_bollocks(file_path="../data/tunes.json",
+    update_json_bollocks(file_path=TUNES_JSON_FILEPATH,
                          args={"name": name,
                                "artist": artist,
                                "link": link},
