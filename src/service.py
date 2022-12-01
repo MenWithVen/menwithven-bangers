@@ -2,8 +2,8 @@ from enum import Enum
 
 from src.utils import parse_json_from_file, write_json_to_file
 
-TUNES_JSON_FILEPATH = "../data/tunes.json"
-FILMS_JSON_FILEPATH = "../data/films.json"
+TUNES_JSON_FILEPATH = "./data/tunes.json"
+FILMS_JSON_FILEPATH = "./data/films.json"
 FILMS_CONTENT_KEY = "films"
 TUNES_CONTENT_KEY = "tunes"
 
